@@ -13,7 +13,6 @@ html, body {
 }
 
 main {
-  height: 100vh;
-  height: 100dvh;
+ 
   background: linear-gradient(90.21deg, #4a0080 -5.91%, #1c1c1c 111.58%);
 }
