@@ -49,8 +49,8 @@ export default function ContactMe() {
       ) : (
         <>
           <h2 className="text-3xl font-bold text-center text-white-800 mb-6">
-          Let's talk about your next project! 🚀
-            <p className="text-lg text-[#b19cd9] mt-2">I'm ready to help you bring your ideas to life.</p>
+          Let is talk about your next project! 🚀
+            <p className="text-lg text-[#b19cd9] mt-2">I am ready to help you bring your ideas to life.</p>
           </h2>
 
           <form onSubmit={handleSubmit} className="w-full max-w-md p-6 rounded-xl shadow-lg space-y-6">

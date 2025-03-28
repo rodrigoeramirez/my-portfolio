@@ -14,7 +14,7 @@ interface ProjectsBoxProps {
 
 export default function ProjectsBox(props: ProjectsBoxProps) {
     const { data } = props;
-    const { id, title, image, techstack, urlGithub, urlDemo } = data;
+    const {  title, image, techstack, urlGithub, urlDemo } = data;
 
     return (
         <div className="p-4 border border-teal-50 rounded-xl flex flex-col h-full">

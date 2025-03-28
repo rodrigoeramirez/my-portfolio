@@ -1,6 +1,5 @@
 import ContainerPage from "@/components/container";
 import ContainerSkills from "@/components/container-skills";
-import CoverParticles from "@/components/cover-particles";
 import TransitionPage from "@/components/transition-page";
 import { databases, languages, tools } from "@/data";
 import { Fragment } from "react";

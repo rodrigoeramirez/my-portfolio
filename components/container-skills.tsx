@@ -10,7 +10,7 @@ interface ContainerSkillsProps {
 
 export default function ContainerSkills(props: ContainerSkillsProps) {
     const { data } = props;
-    const { id, title, image } = data;
+    const { title, image } = data;
 
     return (
         <div className="group relative inline-block w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 rounded-xl overflow-hidden shadow-xl transition-all duration-300">
