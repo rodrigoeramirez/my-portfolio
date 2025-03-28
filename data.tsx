@@ -172,7 +172,7 @@ export const tools= [
     {
         id: 7,
         title: "IntelliJ IDEA",
-        image: "/IntelliJ_IDEA.png",
+        image: "/intellij_idea.png",
     }
 ]
 
