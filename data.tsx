@@ -127,6 +127,14 @@ export const dataPortfolio = [
         techstack:["React","Next.js","Tailwind CSS"],
         urlGithub: "https://github.com/rodrigoeramirez/my-portfolio",
         urlDemo: "#!",
+    },
+    {
+        id: 5,
+        title: "Script's: Automatización de procesos",
+        image: "/image-5.jpeg",
+        techstack:["Batchfile","Powershell"],
+        urlGithub: "https://github.com/rodrigoeramirez/script-s-de-clonaci-n",
+        urlDemo: "#!",
     }
 ];
 
