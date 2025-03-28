@@ -38,7 +38,7 @@ const Introduction = () => {
           <p className="mx-auto mb-3 text-xl md:mx-0 md:mb-8 text-center md:text-left">
             a Systems Information Analyst and Developer based in Argentina. I am passionate about web development and have experience in both backend and frontend technologies. You can learn more about me on my LinkedIn page.
           </p>
-          <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
+          <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10 mb-30">
             <Link href="/my-projects" className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fir rounded-xl hover:shadow-xl hover:shadow-white/50">
               View projects
             </Link>
