@@ -51,64 +51,21 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Developer",
+        subtitle: "Registro de la Propiedad de La Provincia de Buenos Aires",
+        description: "In my role as a developer, I program in natural language to maintain systems that handle large volumes of data. Additionally, I implement new features to enhance the functionality of the organization.",
+        date: "2025 ",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Specialist in Equipment and Network Maintenance",
+        subtitle: "Registro de la Propiedad de La Provincia de Buenos Aires",
+        description: "In addition to the routine tasks related to equipment and network maintenance, I was responsible for developing custom applications and scripts to optimize and streamline processes, improving efficiency and reducing work time.",
+        date: "2021-2024",
     },
-    {
-        id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
-    },
-    {
-        id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
-    },
+
 ]
 
-export const dataCounter = [
-    {
-        id: 0,
-        endCounter: 10,
-        text: "Años de experiencia",
-        lineRight: true,
-        lineRightMobile: true,
-    },
-    {
-        id: 1,
-        endCounter: 80,
-        text: "Clientes satisfechos",
-        lineRight: true,
-        lineRightMobile: false,
-    },
-    {
-        id: 2,
-        endCounter: 220,
-        text: "Proyectos finalizados",
-        lineRight: true,
-        lineRightMobile: true,
-    },
-    {
-        id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
-        lineRight: false,
-        lineRightMobile: false,
-    },
-];
 
 export const serviceData = [
     {
@@ -141,60 +98,137 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
+        title: "Gimnasios",
         image: "/image-1.jpg",
+        techstack:["Node.js", "Nest.js", "React","Mysql"],
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "Tickets e Incidencias",
         image: "/image-2.jpg",
+        techstack:["Java", "Spring Boot", "React","Mysql"],
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 3,
-        title: "Estrategias Web",
+        title: "Gestion de Espacios",
         image: "/image-3.jpg",
+        techstack:["Node.js","React","Mysql"],
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 4,
-        title: "Ideas Creativas",
+        title: "My Portfolio",
         image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
+        techstack:["React","Next.js","Tailwind CSS"],
         urlGithub: "#!",
         urlDemo: "#!",
     }
+];
+
+export const tools= [
+    {
+        id: 1,
+        title: "Postman",
+        image: "/postman.png",
+    },
+    {
+        id: 2,
+        title: "Visual Studio Code",
+        image: "/vsc.png",
+    },
+    {
+        id: 3,
+        title: "Vite.js",
+        image: "/vite.png",
+    },
+    {
+        id: 4,
+        title: "GitHub",
+        image: "/github.png",
+    },
+    {
+        id: 5,
+        title: "Photoshop",
+        image: "/photoshop.png",
+    },
+    {
+        id: 6,
+        title: "Figma",
+        image: "/figma.png",
+    },
+    {
+        id: 7,
+        title: "IntelliJ IDEA",
+        image: "/IntelliJ_IDEA.png",
+    }
+]
+
+export const databases=[
+        
+    {
+        id: 1,
+        title: "MySQL",
+        image: "/mysql.png",
+    },
+    {
+        id: 2,
+        title: "SQL Server",
+        image: "/sql_server.png",
+    }
+]
+
+export const languages = [
+    {
+        id: 1,
+        title: "Java",
+        image: "/java.png",
+    },
+    {
+        id: 2,
+        title: "JavaScript",
+        image: "/js.png",
+    },
+    {
+        id: 3,
+        title: "TypeScript",
+        image: "/typescript.png",
+    },
+    {
+        id: 4,
+        title: "Spring Boot",
+        image: "/springboot.png",
+    },
+    {
+        id: 5,
+        title: "Node.js",
+        image: "/node.png",
+    },
+    {
+        id: 6,
+        title: "React",
+        image: "/react.png",
+    },
+    {
+        id: 9,
+        title: "Nest.js",
+        image: "/nest.png",
+    },
+    {
+        id: 7,
+        title: "Next.js",
+        image: "/next.png",
+    },
+    {
+        id: 8,
+        title: "Tailwind CSS",
+        image: "/tailwind.png",
+    }
+    
 ];
 
 export const dataTestimonials = [

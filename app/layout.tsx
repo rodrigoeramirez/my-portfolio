@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${urbanist.className}  antialiased`} // This is how typography is used in every body. Antialised is used to soften the edges of fonts. 
+        className={urbanist.className} // This is how typography is used in every body. Antialised is used to soften the edges of fonts. 
       > 
         <Navbar></Navbar>
         <Header></Header>

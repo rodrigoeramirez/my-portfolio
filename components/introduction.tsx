@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
+import { FaFilePdf } from "react-icons/fa6";
 
 const Introduction = () => {
   return (
@@ -38,9 +39,19 @@ const Introduction = () => {
             a Systems Information Analyst and Developer based in Argentina. I'm passionate about web development and have experience in both backend and frontend technologies. You can learn more about me on my LinkedIn page.
           </p>
           <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
-                <Link href="/my-projects" className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fir rounded-xl hover:shadow-xl hover-shadow-white/50 "> View projects</Link>
-                <Link href="/contact-me" className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fir rounded-xl hover:shadow-xl hover-shadow-white/50 "> Contact me</Link>
+            <Link href="/my-projects" className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fir rounded-xl hover:shadow-xl hover:shadow-white/50">
+              View projects
+            </Link>
+            <Link 
+              href="/cv.pdf" 
+              target="_blank" 
+              download
+              className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fir rounded-xl hover:shadow-xl hover:shadow-secondary text-secondary border-secondary flex items-center gap-2"
+            >
+              <FaFilePdf /> Resume
+            </Link>
           </div>
+
         </div>
       </div>
     </div>

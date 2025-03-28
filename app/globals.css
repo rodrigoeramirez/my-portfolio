@@ -2,7 +2,7 @@
 
 @theme {
   --color-secondary: #b19cd9;
-  --color-darkBg: #131424,
+  --color-darkBg: #4a0080,
   /* ... */
 }
 
@@ -15,5 +15,5 @@ html, body {
 main {
   height: 100vh;
   height: 100dvh;
-  background: linear-gradient(90.21deg, rgb(74, 0, 128) -5.91%, rgb(13, 13, 13) 111.58%);
+  background: linear-gradient(90.21deg, #4a0080 -5.91%, #1c1c1c 111.58%);
 }
